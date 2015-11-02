@@ -26,5 +26,7 @@ symlink xcodebuild/Release/Brackets.app Applications/Brackets.app
 
 # Reconnect Brackets-Shell to Brackets - this step may not be needed
 
-# cd $BRACKETS
-# tools/setup_for_hacking.sh
+cd $BRACKETS
+tools/setup_for_hacking.sh
+
+exit 0
